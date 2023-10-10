@@ -2,15 +2,13 @@
 #define _FILEOPS_H
 
 #include<stdio.h>
+#include<math.h>
+
+#define PI 3.14159265358979323846
 
 
 
-void fileOpenForWrite(char* fileName);
-void fileOpenForeRead(char* fileName);
-
-
-
-
-
+int fileOpenForWrite(char* fileName);
+int fileOpenForeRead(char* fileName);
 
 #endif
