@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include <math.h>
-
+#include"headers/fileOps.h"
+FILE* file;
 int main() {
-    FILE* file;
     double x;
     double angleTable[360];
-     file = fopen("numbers.bin", "wb");
+    file = fopen("numbers.bin", "wb");
     if (file == NULL) {
         printf("Error opening file for writing!\n");
         return 1;
