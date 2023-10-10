@@ -1,4 +1,4 @@
 #include"../headers/fileOps.h"
 
-FILE* file;
+//FILE* file;
 

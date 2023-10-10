@@ -10,7 +10,7 @@ int main() {
         return 1;
     }
     for (int i = 0; i < 360; ++i) {
-        double angle = i*M_PI/180;
+        double angle = i*2/180;
         x = sin(angle);
         fwrite(&x, sizeof(double), 1, file);
     }
